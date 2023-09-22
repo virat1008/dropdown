@@ -1,0 +1,38 @@
+/* app.css */
+.App
+{
+  text-align: center;
+}
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown-button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd;
+}
